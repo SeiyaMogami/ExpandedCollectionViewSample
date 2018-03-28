@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="283.5" width="375" height="100"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="0cw-50-qmj">
-                                        <rect key="frame" x="0.0" y="45" width="375" height="50"/>
+                                        <rect key="frame" x="0.0" y="25" width="375" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="hNv-bt-wQW"/>
@@ -47,9 +47,9 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="0cw-50-qmj" firstAttribute="centerY" secondItem="XcQ-Jg-m8w" secondAttribute="centerY" id="Ier-F8-5ok"/>
                                     <constraint firstItem="0cw-50-qmj" firstAttribute="leading" secondItem="XcQ-Jg-m8w" secondAttribute="leading" id="Lqh-6h-5kb"/>
                                     <constraint firstAttribute="trailing" secondItem="0cw-50-qmj" secondAttribute="trailing" id="PbD-1i-poU"/>
-                                    <constraint firstAttribute="bottom" secondItem="0cw-50-qmj" secondAttribute="bottom" constant="5" id="ZoS-CI-Zoe"/>
                                     <constraint firstAttribute="height" constant="100" id="uOW-BG-qGD"/>
                                 </constraints>
                                 <connections>
